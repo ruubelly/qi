@@ -6,6 +6,7 @@ run_category_command() {
 
   local category="${1}"
   local command="${2}"
+  shift;shift
 
   # shellcheck disable=SC1090
   source "${APP_DIR}/categories/${category}/commands/${command}/${command}.sh" "$@"

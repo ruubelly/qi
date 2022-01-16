@@ -20,6 +20,7 @@ print_qi_into() {
     printf "Categories\n"
     printf "    mac \n"
     printf "    ui \n"
+    printf "    docker \n"
     printf "\n\n"
 }
 
